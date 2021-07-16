@@ -2,7 +2,20 @@
   text-align: center;
 }
 .Header {
-  color: #443e3e;
-  text-shadow: 1px 1px 5px #fff;
+  text-align: center;
+  font-weight: 800;
+  color: transparent;
+  font-size: 50px;
+  background: url("https://s3.amazonaws.com/psiu/wallpapers/heic0604a/heic0604a_tablet.jpg");
+  background-position: 40% 50%;
+  -webkit-background-clip: text;
+  position: relative;
+  text-align: center;
+  line-height: 70px;
+  letter-spacing: 5px;
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: black;
 }
-/* write your parent styles in here for your App.js */
+h3 {
+  text-align: center;
+}
